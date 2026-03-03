@@ -1,0 +1,34 @@
+{
+  "project": {
+    "name": "Reddit Finance Analytics",
+    "description": "Tableau dashboards for data quality, model performance, business insights, and scalability analysis"
+  },
+  "data_source": {
+    "file": "00_combined.csv",
+    "refresh_type": "extract",
+    "date_field": "created_datetime"
+  },
+  "dashboards": [
+    {
+      "name": "Data Quality & Pipeline Monitoring",
+      "visuals": 4
+    },
+    {
+      "name": "Model Performance & Feature Importance",
+      "visuals": 4
+    },
+    {
+      "name": "Business Insights & Recommendations",
+      "visuals": 4
+    },
+    {
+      "name": "Scalability & Cost Analysis",
+      "visuals": 4
+    }
+  ],
+  "design_guidelines": {
+    "calculated_fields": false,
+    "bins": false,
+    "lod_expressions": false
+  }
+}

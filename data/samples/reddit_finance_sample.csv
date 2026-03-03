@@ -1,0 +1,3 @@
+id,title,text,created_utc,created_datetime,score,num_comments,upvote_ratio,subreddit,company,year,month
+abc123,market outlook,discussion on market trends and investor sentiment,1700000000,2023-11-14 10:00:00,25,12,0.92,stocks,Apple,2023,11
+def456,earnings discussion,company earnings beat expectations with strong guidance,1700003600,2023-11-14 11:00:00,40,18,0.95,wallstreetbets,Microsoft,2023,11

@@ -1,0 +1,19 @@
+# Spark Configuration for Reddit Finance Pipeline
+
+spark:
+  app:
+    name: Reddit_Finance_Distributed_Analytics
+
+  resources:
+    executor_memory: 4g
+    driver_memory: 4g
+    executor_cores: 2
+    num_executors: 2
+
+  sql:
+    shuffle_partitions: 200
+    adaptive_enabled: true
+
+  performance:
+    cache_storage_level: MEMORY_AND_DISK
+    broadcast_join_threshold: 10MB

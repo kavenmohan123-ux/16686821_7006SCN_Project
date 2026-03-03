@@ -1,0 +1,14 @@
+{
+  "id": "string",
+  "title": "string",
+  "text": "string",
+  "created_utc": "long",
+  "created_datetime": "timestamp",
+  "score": "int",
+  "num_comments": "int",
+  "upvote_ratio": "double",
+  "subreddit": "string",
+  "company": "string",
+  "year": "int",
+  "month": "int"
+}
